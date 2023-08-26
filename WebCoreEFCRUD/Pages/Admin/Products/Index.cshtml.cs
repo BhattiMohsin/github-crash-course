@@ -114,11 +114,11 @@ namespace WebCoreEFCRUD.Pages.Admin.Products
             {
                 if (orderBy == "asc")
                 {
-                    query = query.OrderBy(p => p.CreatedAt);
+                    query = query.OrderBy(p => p.CreatedAT);
                 }
                 else
                 {
-                    query = query.OrderByDescending(p => p.CreatedAt);
+                    query = query.OrderByDescending(p => p.CreatedAT);
                 }
             }
             else
